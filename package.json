@@ -15,5 +15,13 @@
 		"@types/node": "18.16.19",
 		"prettier": "^3.0.0",
 		"standard": "^17.1.0"
+	},
+	"dependencies": {
+		"class-transformer": "^0.5.1"
+	},
+	"pnpm": {
+		"patchedDependencies": {
+			"class-transformer@0.5.1": "patches/class-transformer@0.5.1.patch"
+		}
 	}
 }
